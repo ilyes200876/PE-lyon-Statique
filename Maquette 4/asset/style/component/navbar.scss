@@ -1,0 +1,40 @@
+header{
+  height: 95px;
+  width: 100%;
+  nav{
+    position: fixed !important;
+    top: 0 !important;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 0 !important;
+    .imglogo{
+      margin-left: 150px;
+      width: 24%;
+      img{
+
+        width: 85px;
+      }
+    }
+    ul{
+      margin-right: 10px;
+      color: $text-color;
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: uppercase;
+      width: 50%;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+    }
+    .navicons{
+      margin-right: 150px;
+      i{
+        color: $secondary-color;
+      }
+    }
+  }
+}

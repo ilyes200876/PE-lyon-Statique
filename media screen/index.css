@@ -1,0 +1,23 @@
+
+  
+  .images{
+    text-align: center;
+  }
+  
+  img{ 
+    width:100%;
+  }
+  
+
+
+@media screen and (min-width:601px) {
+  
+  .images{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  img{ 
+    width:20%;
+  }
+}

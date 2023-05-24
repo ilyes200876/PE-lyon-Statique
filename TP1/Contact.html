@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Manger bien!!!</title>
+  </head>
+  <body style="width: 100%; margin: 0;">
+    <header style="position: sticky; top: 0;">
+      <nav style="display: flex; justify-content: space-between; align-items: center; flex-direction: row; background-color: rgb(191, 107, 212); margin: 0; height: 7rem;">
+        <img src="https://thumbs.dreamstime.com/z/nourriture-avec-le-symbole-logo-design-de-cuill%C3%A8re-et-fourchette-121549456.jpg" alt="Logo de l'entreprise" width="10%" height="100%">
+        <p>FOOD EXPRESS</p>
+        <ul style="list-style-type: none; display: flex; flex-direction: row; justify-content: space-between;  width: 50%; justify-content: space-around;">
+          <li><a href="Index.html">Accueil</a></li>
+          <li><a href="Project.html">Projet</a></li>
+          <li><a href="About.html">A propos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <form action="post" style="text-align: center; margin-top: 2rem;">
+      <!-- formulaire d'inscription :
+-> Nom
+-> prénom(s)
+-> date de naissance (type Date)
+-> nombre d'enfants (type nombre avec min 0 & max 15)
+-> nationalité liste déroulante avec au moins 5 valeurs
+(option autocomplete sur liste déroulante)
+sexe (radio bouton)
+required : Nom Prénom Date de naissance
+pré checked sexe masculin
+pré select la dernière de vos options-->
+    <legend>Civilité</legend>
+    <label for="masculin">Masculin</label>
+    <input type="radio" name="sexe" id="masculin" checked>
+    <label for="feminin">Féminin</label>
+    <input type="radio" name="sexe" id="feminin" ><br><br>
+
+    <label for="lastname">Nom</label><br>
+    <input type="text" name="lastname" id="lastname" minlength="4" maxlength="20" required><br><br>
+
+    <label for="firstname">Prénom</label><br>
+    <input type="text" name="firstname" id="firstname" minlength="3" maxlength="20" required ><br><br>
+
+    <label for="bithdate">Date de naîssance</label><br>
+    <input type="date" name="birthdate" id="birthdate" required><br><br>
+
+    <label for="nationality">Séléctionner votre nationalité</label><br>
+    <select id="nationality">
+      <option value="française">Française</option>
+      <option value="tunisienne">Tunisienne</option>
+      <option value="italienne">Italienne</option>
+      <option value="canadienne" selected>Canadienne</option>
+    </select><br><br>
+
+    <label for="children">Combien d'enfants avez-vous</label><br>
+    <input type="number" name="children" id="children" min="0" max="15"><br><br>
+
+    <input type="submit" value="envoyer">
+    </form><br><br><br><br><br><br><br>
+    <video src="ocean-65560.mp4" poster="istockphoto-1173935107-612x612.jpg" playsinline muted  max-width="30%" height="10%" controls style="margin: 2rem;">
+      Votre navigateur ne permet pas de lire cette vidéo
+      Mais vous pouver <a href="ocean-65560.mp4">La télécharger</a>.
+    </video>
+  </body>
+</html>

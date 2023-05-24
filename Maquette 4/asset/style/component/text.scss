@@ -1,0 +1,27 @@
+h1, h2{
+  color: $text-color;
+  font-weight: 450;
+  // font-size: 70px;
+  font-size: 2rem !important;
+  span{
+    color: $main-color;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+}
+
+h1{
+  margin-left: 14rem;
+}
+
+h3{
+  color: $text-color;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.center{
+  text-align: center;
+}
+
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Formulaire</title>
+</head>
+<body>
+  <div class="min-vh-100 d-flex justify-content-center align-items-center">
+    <div class="container bg-primary text-white rounded d-flex justify-content-center">
+      <div class="row">
+        <h1 class="text-center text-decoration-underline">Inscrivez-vous</h1>
+        <div class="row pr-3 ps-4">
+          <div class="col-md-6">
+            <label for="lastname">Nom</label>
+            <input type="text" class="form-control" id="lastname" minlength="4" maxlength="20" required name="lastname"><br><br>
+          </div>
+          <div class="col-md-6">
+            <label for="firstname">Prénom</label>
+            <div>
+              <input type="text" class="form-control"  id="firstname" name="firstname" minlength="3" maxlength="20" required><br><br>
+            </div>
+          </div>
+        </div>
+        <div class="row pr-4 ps-3">
+          <div class=" col-6 col-md-4">
+            <label for="bithdate">Date de Naissance</label>
+            <input type="date" class="form-control" name="birthdate" id="birthdate" required><br><br>
+          </div>
+          <div class="col-6 col-md-4">
+            <label for="age">Âge</label>
+            <input type="number" class="form-control" name="age" id="age" required>
+          </div>
+          <div class="col-6 col-md-2 ps-3">
+            <legend class="lead">Sexe</legend>
+            <input class="form-check-input mt-1" type="radio" value="" aria-label="Radio button for following text input" name="sexe" id="masculin">
+            <label for="masculin">Homme</label><br><br>
+          </div>
+          <div class="col-6 col-md-2">
+            <legend class="lead text-primary">Sexe</legend>
+            <input class="form-check-input mt-1" type="radio" value="" aria-label="Radio button for following text input" name="sexe" id="feminin">
+            <label for="feminin ">Femme</label><br><br>
+          </div>
+        </div>
+        <div class=" row pr-3 ps-4">
+          <div class="col-8">
+            <label for="adresse">Adresse</label>
+            <input type="text" class="form-control" id="adresse" name="adresse" minlength="5" maxlength="70" required><br><br>
+          </div>
+          <div class="col-4">
+            <label for="code">Code Postal</label>
+            <div>
+              <input type="number" class="form-control" id="code" name="code" minlength="3" maxlength="7" required><br><br>
+            </div>
+          </div>
+        </div>
+        <div class="row pr-3 ps-4">
+          <div class="col-12">
+            <label for="story">Message</label>
+              <textarea id="story" name="story" maxlength="500" class="form-control" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="text-center my-3 py-3">
+          <button type="submit" class="btn btn-light text-center text-dark">Envoyer</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  </div>
+</html>

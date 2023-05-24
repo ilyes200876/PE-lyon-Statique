@@ -1,0 +1,12 @@
+.carrousel{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 583px;
+  img{
+    object-fit: cover;
+    object-position: 0px -200px;
+  }
+  .carousel-inner{
+    height: 583px;
+  }
+}

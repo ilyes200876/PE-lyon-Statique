@@ -1,0 +1,184 @@
+.mywork{
+  width: 500px;
+  background-color: aqua;
+  border: 15px;
+  border-style: solid;
+  border-color: blueviolet;
+  margin: 50px;
+  box-shadow: 10px 10px 5px 20px 10px;
+}
+
+.conteneur{
+  width: 500px;
+  border-style: solid;
+  border-color: blue;
+  box-shadow: 10px 10px 20px 10px;
+  overflow: hidden;
+}
+.conteneur img{
+  width: 800px;
+}
+
+.float{
+  margin-top: 60px;
+}
+
+.float img{
+  
+  float: right;
+  height: 50px;
+}
+
+.bloc{
+  background-color: aqua;
+  margin: 5rem;
+}
+
+.bloc1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bloc11{
+  padding: 1rem;
+}
+
+.bloc11 img{
+  float: right;
+  height: 50px;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 1px;
+}
+
+.bloc12{
+  padding: 1rem;
+}
+
+.bloc12 img{
+  float: left;
+  height: 50px;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 1px;
+}
+
+.bloc2{
+  background-image: url(download.jpg);
+}
+
+.bloc2 img{
+
+  width: 10%;
+  background-repeat: repeat-x;
+}
+
+.bloc3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bloc31{
+  padding: 1rem;
+}
+
+.bloc31 img{
+  float: right;
+  height: 50px;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 1px;
+}
+
+.bloc32{
+  padding: 1rem;
+}
+
+.bloc32 img{
+  float: left;
+  height: 50px;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 1px;
+}
+
+.container1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container2{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerstretch{
+  height: 21rem;
+  width: 25rem;
+  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+.containerbetween{
+  height: 19rem;
+  width: 25rem;
+  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.containeraround{
+  height: 21rem;
+  width: 25rem;
+  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.containerevenly{
+  height: 23rem;
+  width: 25rem;
+  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+.line1{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.line2{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.line3{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cube11{
+  background-color: brown;
+  height: 5rem;
+  width: 5rem;
+}
+
+.cube12{
+  background-color: blue;
+  height: 5rem;
+  width: 5rem;
+}
+
+.cube13{
+  background-color: yellow;
+  height: 5rem;
+  width: 5rem;
+}
+
+.cube14{
+  background-color: blueviolet;
+  height: 5rem;
+  width: 5rem;
+}

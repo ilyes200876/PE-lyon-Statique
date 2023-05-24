@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="table.css">
+  <title>Document</title>
+</head>
+<body>
+  <table border="2">
+    <tr>
+      <td>Toulouse</td>
+      <td>Cassoulet</td>
+      <td>Jambon Cru</td>
+    </tr>
+    <tr>
+      <td>Strasbourg</td>
+      <td colspan="2">Choucroute</td>
+    </tr>
+    <tr>
+      <td>Paris</td>
+      <td>Café à 10€</td>
+      <td>Jambon beurre à 20€</td>
+    </tr>
+  </table>
+  <form action="get">
+    <div>
+      <label for="say">Quel salut voulez-vous adressez ?</label>
+      <input name="say" id="say" value="salut gros">
+    </div>
+    <div>
+      <label for="to">A qui voulez-vous l'adresser ?</label>
+      <input name="to" id="to" value="Emmanuel M.">
+    </div>
+    <div>
+      <button>Dire Bonjour !</button>
+    </div>
+    <label for="continent">séléctionner un pays:</label>
+    <select id="continent">
+      <optgroup label="Amérique">
+        <option>Canada</option>
+        <option>USA</option>
+        <option>Méxique</option>
+      </optgroup>
+      <optgroup label="Afrique">
+        <option>Tunisie</option>
+        <option>Algérie</option>
+        <option>Maroc</option>
+      </optgroup>
+      <optgroup label="EUROPE">
+        <option>France</option>
+        <option>Espagne</option>
+        <option>Italie</option>
+      </optgroup>
+    </select>
+    <br>
+    <hr>
+    <br>  
+  </form>
+  <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language" target="_top">HTML</a><br>
+  <a href="https://fr.wikipedia.org/wiki/JavaScript" target="_blank">Le JavaScript</a><br>
+  <a href="https://fr.wikipedia.org/wiki/PHP" target="_self">PHP</a><br>
+  <a href="https://fr.wikipedia.org/wiki/C%2B%2B" target="_blank">C++</a><br>
+  <a href="https://fr.wikipedia.org/wiki/Symfony" target="_top">Simphony</a>
+</body>
+</html>

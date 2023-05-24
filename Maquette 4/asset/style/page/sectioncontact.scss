@@ -1,0 +1,44 @@
+.contacter{
+  .backgroundcontact{
+    margin-top: 200px;
+    background-color: $greybackground-color;
+    height: 300px;
+    width: 100%;
+    position: relative;
+  }
+  .container{
+    position: absolute;
+    bottom: -120px;
+    left: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: solid black thin;
+    border-radius: 0;
+    width: 674px;
+  }
+  .form-control{
+    border: solid black thin;
+    border-radius: 0;
+  }
+  .button{
+    text-align: center;
+  }
+  button{
+    border: none;
+    width: 200px;
+    background-color: $secondary-color;
+  }
+  i{
+    color: $secondary-color;
+  }
+  .coordonnee p{
+    font-size: 16px;
+    font-weight: 400;
+    color: $text-color;
+  }
+  .coordonee span{
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
